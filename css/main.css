@@ -1,5 +1,7 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    
 }
 
 
@@ -12,10 +14,11 @@ body {
 
 .login-form {
     width: 35%;
-    height: 10cm;
+    /* height: 100%; */
     background-color: white;
     margin: auto;
     border-radius: 7%;
+    padding-bottom: 1rem;
 }
 
 .heading {
@@ -26,7 +29,7 @@ body {
 }
 
 .note {
-    font-size: 15px;
+    /* font-size: 1rem; */
     color: #787878;
 
 }
@@ -45,13 +48,13 @@ body {
 
 .sign-up-btn {
     color: #FCA311;
-    font-size: 15px;
+    /* font-size: 15px; */
 }
 
 .copyright {
     text-align: center;
     margin-top: 5%;
-    font-size: 13px;
+    font-size: 0.8125rem; /*13px = 0.8125 * 16px*/
 }
 
 .footer-area {
