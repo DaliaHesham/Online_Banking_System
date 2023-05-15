@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Accounts</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/allaccounts.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Accounts</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/allaccounts.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
 
 
 </head>
@@ -21,107 +21,168 @@
 
 <body>
 
-    <section class="view-container">
+  <div class="introo container-fluid">
+    <nav id="mainNavbar" class="navbar navbar-expand-lg">
+      <a href="" class="navbar-brand justify-content-lg-start"><img class="footer-image" src="../resources/logo.png"
+          alt="searchIcon"></a>
+      <div class="collapse navbar-collapse  justify-content-center">
 
-      <div class="dropdownlist">
-        <div class="list-box" id="fixed-box" style="justify-content: space-evenly;display: flex;">My Accounts <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-          <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+        <div class="navLinkGroup navbar-nav">
+          <li class="nav-item ">
+            <a href="home.html" target="_self" class="nav-link font1">Home</a>
+          </li>
+          <li class="nav-item droplist-nav">
+            <div class="drop-link-arrow">
+              <a href="" class="nav-link font1">Applications</a>
+              <i class="fa-solid fa-angle-down font1"></i>
+            </div>
+            <div class="drop-list">
+              <div class="components"><a href="candidates.html" target="_self" style="color:black">Investment
+                  Certificate</a> <br></div>
+              <div class="components"><a href="job-details.html" target="_self" style="color:black">Cheque</a> <br>
+              </div>
+              <div class="components"><a href="job-details.html" target="_self" style="color:black">Transaction</a> <br>
+              </div>
+              <div class="components"><a href="job-details.html" target="_self" style="color:black">Loan</a> <br></div>
+              <div class="components"><a href="job-details.html" target="_self" style="color:black">Donation</a> <br>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item ">
+            <a href="browse.html" target="_self" class="nav-link font1">Explore</a>
+          </li>
+          <li class="nav-item ">
+            <a href="contact.html" class="nav-link font1">My Accounts</a>
+          </li>
+          <li class="nav-item ">
+            <a href="contact.html" class="nav-link font1">Contact</a>
+          </li>
+          <li class="nav-item ">
+            <a href="browse.html" target="_self" class="nav-link font1">Help</a>
+          </li>
+        </div>
+      </div>
+      <li class="nav-item droplist-nav">
+        <div class="drop-link-arrow">
+          <a href="" class="nav-link font1">Arwa Gad</a>
+          <i class="fa-solid fa-angle-down font1"></i>
+        </div>
+        <div class="drop-list">
+          <div class="components"><a href="candidates.html" target="_self" style="color:black">Your Profile
+            </a> <br></div>
+          <div class="components"><a href="job-details.html" target="_self" style="color:black">Settings</a>
+            <br>
+          </div>
+          <div class="components"><a href="job-details.html" target="_self" style="color:black">Sign out</a>
+            <br>
+          </div>
+        </div>
+      </li>
+    </nav>
+  </div>
+  <section class="view-container">
+
+    <div class="dropdownlist">
+      <div class="list-box" id="fixed-box" style="justify-content: space-evenly;display: flex;">My Accounts <svg
+          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill"
+          viewBox="0 0 16 16">
+          <path
+            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
         </svg></div>
-        <div class="options-container">
-          <div class="list-box" id="current">Current Account</div>
-          <div class="list-box" id="credit">Credit Account</div>
-          <div class="list-box" id="debit">Debit Account</div>
-          <div class="list-box" id="savings">Savings Account</div>
+      <div class="options-container">
+        <div class="list-box" id="current">Current Account</div>
+        <div class="list-box" id="credit">Credit Account</div>
+        <div class="list-box" id="debit">Debit Account</div>
+        <div class="list-box" id="savings">Savings Account</div>
 
-        </div>
+      </div>
+    </div>
+
+    <div class="data-container">
+
+      <div class="names">
+        <div class="property name">Balance</div>
+        <div class="property name">Minimum Balance</div>
+        <div class="property name">Currency</div>
+        <div class="property name">Transaction Limit</div>
+        <div class="property name">Withdrawal Penalty</div>
+        <div class="property name">Opening Date</div>
+        <div class="property name">Closing Date</div>
+        <div class="property name">Interest Rate</div>
       </div>
 
-      <div class="data-container">
 
-        <div class="names">
-          <div class="property name">Balance</div>
-          <div class="property name">Minimum Balance</div>
-          <div class="property name">Currency</div>
-          <div class="property name">Transaction Limit</div>
-          <div class="property name">Withdrawal Penalty</div>
-          <div class="property name">Opening Date</div>
-          <div class="property name">Closing Date</div>
-          <div class="property name">Interest Rate</div>
-        </div>
 
-        
-
-        <div class="values">
-          <div class="property value" id="balance">5000 L.E</div>
-          <div class="property value" id="minimum-balance">1000 L.E</div>
-          <div class="property value" id="currency">EGP</div>
-          <div class="property value" id="limit">2000 L.E</div>
-          <div class="property value" id="penalty">550 L.E</div>
-          <div class="property value" id="opening">5/May/2002</div>
-          <div class="property value" id="closing">None</div>
-          <div class="property value" id="interest">0.3</div>
-        </div>
-        
+      <div class="values">
+        <div class="property value" id="balance">5000 L.E</div>
+        <div class="property value" id="minimum-balance">1000 L.E</div>
+        <div class="property value" id="currency">EGP</div>
+        <div class="property value" id="limit">2000 L.E</div>
+        <div class="property value" id="penalty">550 L.E</div>
+        <div class="property value" id="opening">5/May/2002</div>
+        <div class="property value" id="closing">None</div>
+        <div class="property value" id="interest">0.3</div>
       </div>
 
-    </section>
+    </div>
 
-    <script src="../js/allaccounts.js"></script>
+  </section>
 
-    <footer class="sec5">
-      <div class="row footer-area">
-          <div class="col-lg-3">
-              <img class="footer-image" src="./resources/logo.png" alt="Picture not found.">
+  <script src="../js/allaccounts.js"></script>
 
-              <div class="footer-text"> finloan@support.com <br>
-                  +33 12-345-6789 <br>
-                  Rue de Rivoli, Paris, France
-              </div>
-              <div class="social-media-logos mt-4">
-                  <i class="google-logo fa-brands fa-facebook-f"></i>
-                  <i class="google-logo fa-brands fa-google-plus-g"></i>
-                  <i class="google-logo fa-brands fa-twitter"></i>
-                  <i class="google-logo fa-brands fa-instagram"></i>
-              </div>
+  <footer class="sec5">
+    <div class="row footer-area">
+      <div class="col-lg-3">
+        <img class="footer-image" src="./resources/logo.png" alt="Picture not found.">
 
-          </div>
-          <div class="col-lg-2">
-              <p class="font10">Company</p>
-              <div class="company-div">
-                  <a href="job-details.html">About</a> <br>
-                  <a href="job-details.html">Pricing</a> <br>
-                  <a href="job-details.html">Carrier Tips</a> <br>
-                  <a href="job-details.html">FAQ</a>
-              </div>
+        <div class="footer-text"> finloan@support.com <br>
+          +33 12-345-6789 <br>
+          Rue de Rivoli, Paris, France
+        </div>
+        <div class="social-media-logos mt-4">
+          <i class="google-logo fa-brands fa-facebook-f"></i>
+          <i class="google-logo fa-brands fa-google-plus-g"></i>
+          <i class="google-logo fa-brands fa-twitter"></i>
+          <i class="google-logo fa-brands fa-instagram"></i>
+        </div>
 
-          </div>
-          <div class="col-lg-2">
-              <p class="font10">Category</p>
-              <div class="company-div">
-                  <a href="job-details.html">Design</a> <br>
-                  <a href="job-details.html">Engineering</a> <br>
-                  <a href="job-details.html">Sales & Marketing</a> <br>
-                  <a href="job-details.html">Finance</a>
-              </div>
-
-          </div>
-          <div class="col-lg-5">
-              <p class="font10-subs">Subscribe</p>
-              <div class="input-group mb-3">
-                  <div class="btn-input">
-                      <input class="form-div" type="email" class="form-control" placeholder="Enter your mail">
-                      <button class="btn-subscribe btn btn-outline-secondary" type="button"
-                          id="button-addon2">Subscribe</button>
-                  </div>
-
-
-                  <p class="footer-text mt-3">Subscribe and get our latest news from our website!
-                  </p>
-              </div>
-          </div>
       </div>
-      <center>
-          <p class="copyright-text">Copyright ©2023 All rights reserved</p>
-      </center>
+      <div class="col-lg-2">
+        <p class="font10">Company</p>
+        <div class="company-div">
+          <a href="job-details.html">About</a> <br>
+          <a href="job-details.html">Pricing</a> <br>
+          <a href="job-details.html">Carrier Tips</a> <br>
+          <a href="job-details.html">FAQ</a>
+        </div>
+
+      </div>
+      <div class="col-lg-2">
+        <p class="font10">Category</p>
+        <div class="company-div">
+          <a href="job-details.html">Design</a> <br>
+          <a href="job-details.html">Engineering</a> <br>
+          <a href="job-details.html">Sales & Marketing</a> <br>
+          <a href="job-details.html">Finance</a>
+        </div>
+
+      </div>
+      <div class="col-lg-5">
+        <p class="font10-subs">Subscribe</p>
+        <div class="input-group mb-3">
+          <div class="btn-input">
+            <input class="form-div" type="email" class="form-control" placeholder="Enter your mail">
+            <button class="btn-subscribe btn btn-outline-secondary" type="button" id="button-addon2">Subscribe</button>
+          </div>
+
+
+          <p class="footer-text mt-3">Subscribe and get our latest news from our website!
+          </p>
+        </div>
+      </div>
+    </div>
+    <center>
+      <p class="copyright-text">Copyright ©2023 All rights reserved</p>
+    </center>
   </footer>
 </body>
