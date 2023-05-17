@@ -9,6 +9,7 @@ body {
   display: flex;
   justify-content: flex-start;
   margin: 8rem 0 8rem 8rem;
+  
 }
 
 
@@ -26,7 +27,7 @@ body {
 .list-box {
   background-color: #FCA311;
   height: 3rem;
-  width: 15rem;
+  width: 18rem;
   /* border: 1px solid red; */
   display: flex;
   align-items: center;
@@ -52,7 +53,7 @@ body {
 #fixed-box:hover {
   display: flex;
   position: absolute;
-  top: 20%;
+  top: 6%;
   transform: none;
   transition: all ease 0.4s;
 
@@ -65,7 +66,7 @@ body {
   transition: all ease 0.4s;
 }
 
-.data-container {
+.data-container{
   width: 60%;
   height: auto;
   border-radius: 5%;
@@ -334,7 +335,93 @@ a {
   top: 10%;
 }
 
+.actions-buttons{
+  width: 18rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 2rem;
+}
 
+.are-you-sure{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 200px;
+  align-self: center;
+  background-color: white;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  z-index: 10;
+  display: none;
+}
+
+.are-you-sure p {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.button-container {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+
+#yes-button,
+#no-button, #ok-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: inherit;
+  color: white;
+
+}
+
+#yes-button {
+  background-color: #5cb85c;
+}
+
+#no-button {
+  background-color: #d9534f;
+}
+
+.close-icon {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  cursor: pointer;
+}
+
+.action{
+  margin-bottom: 0.5rem;
+}
+
+
+.lightning-button {
+  background-color: white;
+  color: #012a4a;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 1em;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease-in-out;
+  margin-top: 2rem;
+
+}
+
+.lightning-button:hover {
+  box-shadow: 0 0 50px #012a4a;
+}
 
 @media (max-width: 992px) {
   body{
@@ -364,9 +451,11 @@ a {
   .dropdownlist{
     margin-bottom: 2rem;
   }
+  .introo{
+    display: none;
+  }
   
 }
-
 
 
 @media (max-width: 786px) {
