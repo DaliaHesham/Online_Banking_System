@@ -335,3 +335,70 @@ a {
 }
 
 
+
+@media (max-width: 992px) {
+  body{
+    font-size: 14px;
+  }
+  .view-container{
+    display: flex;
+    flex-direction: column;
+    margin: 8rem 0 8rem 0;
+    justify-content: center;
+    height: fit-content;
+  }
+  .dropdownlist{
+    width:-webkit-fill-available;
+    align-self: center;
+  }
+  .data-container{
+    width: -webkit-fill-available;
+    align-self: center;
+    justify-content: space-between;
+    margin: 0 2rem;
+  }
+  
+  #fixed-box{
+    position: relative;
+  }
+  .dropdownlist{
+    margin-bottom: 2rem;
+  }
+  
+}
+
+
+
+@media (max-width: 786px) {
+
+  html,
+  body {
+    font-size: 14px;
+  }
+
+  
+}
+
+
+@media (max-width: 575px) {
+
+  body{
+    font-size: 12px;
+  }
+  #mainNavbar {
+    padding: 1rem;
+  }
+
+  .footer-image {
+    width: 150px;
+  }
+}
+
+@media(max-width:1375) {
+  .slider-text {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+}
+
