@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/home.css">
-    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
 
 
 
@@ -34,7 +34,12 @@
                     <li class="nav-item droplist-nav">
                         <div class="drop-link-arrow">
                             <a href="" class="nav-link font1">Applications</a>
-                            <i class="fa-solid fa-angle-down font1"></i>
+                            <svg style="color: white;"
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                            </svg>
                         </div>
                         <div class="drop-list">
                             <div class="components"><a href="candidates.html" target="_self"
@@ -49,12 +54,21 @@
                                     style="color:black">Donation</a> <br></div>
                         </div>
                     </li>
-                    <li class="nav-item ">
-                        <a href="browse.html" target="_self" class="nav-link font1">Explore</a>
+                    <li class="nav-item droplist-nav">
+                        <div class="drop-link-arrow">
+                            <a href="" class="nav-link font1">Explore</a>
+                            <svg style="color: white;"
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                            </svg></div>
+                        <div class="drop-list">
+                            <div class="components"><a href="../html/allaccounts.html" target="_self"
+                                    style="color:black">View my accounts</a> <br></div>
+                        </div>
                     </li>
-                    <li class="nav-item ">
-                        <a href="allaccounts.html" class="nav-link font1">My Accounts</a>
-                    </li>
+                    
                     <li class="nav-item ">
                         <a href="contact.html" class="nav-link font1">Contact</a>
                     </li>
@@ -66,10 +80,12 @@
             <li class="nav-item droplist-nav">
                 <div class="drop-link-arrow">
                     <a href="" class="nav-link font1">Arwa Gad</a>
-                    <i class="fa-solid fa-angle-down font1"></i>
-                </div>
+                    <svg style="color: white;height : 15px" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                      <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                      <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                    </svg></div>
                 <div class="drop-list">
-                    <div class="components"><a href="candidates.html" target="_self" style="color:black">Your Profile
+                    <div class="components"><a href="candidates.html" target="_self" style="color:black">Profile
                         </a> <br></div>
                     <div class="components"><a href="job-details.html" target="_self" style="color:black">Settings</a>
                         <br>
@@ -125,7 +141,7 @@
                     </div>
                 </div>
             </div>
-            <div class="intro-img2  mr-5">
+            <div class="intro-img2">
                 <img style="width:100%" src="../resources/trust.png" alt="Something went wrong">
             </div>
         </div>
@@ -166,7 +182,7 @@
                                     <img src="./images/person4.png" alt="">
                                 </div>
                                 <div class="text-candidate">
-                                    <p class="first-text">Jana Ahmed</p>
+                                    <p class="first-text">Jana Abubakr</p>
                                     <p class="second-text sub-heading">Software Engineer</p>
                                 </div>
                             </div>
@@ -188,7 +204,7 @@
                                     <img src="./images/person5.png" alt="">
                                 </div>
                                 <div class="text-candidate">
-                                    <p class="first-text">Dalia Hesham</p>
+                                    <p class="first-text">Dalia IGCSE</p>
                                     <p class="second-text sub-heading">Software Engineer</p>
                                 </div>
                             </div>
@@ -215,7 +231,7 @@
                                     <img src="./images/person8.png" alt="">
                                 </div>
                                 <div class="text-candidate">
-                                    <p class="first-text">Jana Ahmed</p>
+                                    <p class="first-text">Jana Abubakr</p>
                                     <p class="second-text sub-heading">Software Engineer</p>
                                 </div>
                             </div>
@@ -238,54 +254,59 @@
 
     <footer class="sec5">
         <div class="row footer-area">
-            <div class="col-lg-3">
-                <img class="footer-image" src="../resources/logo.png" alt="Picture not found.">
-
-                <div class="footer-text"> BDP@support.com <br>
-                    +33 12-345-6789 <br>
-                    Rue de Rivoli, Paris, France
-                </div>
-
+          <div class="col-lg-3">
+            <img class="footer-image" src="../resources/logo.png" alt="Picture not found.">
+    
+            <div class="footer-text"> finloan@support.com <br>
+              +33 12-345-6789 <br>
+              Rue de Rivoli, Paris, France
             </div>
-            <div class="col-lg-2">
-                <p class="font10">Company</p>
-                <div class="company-div">
-                    <a href="job-details.html">About</a> <br>
-                    <a href="job-details.html">Pricing</a> <br>
-                    <a href="job-details.html">Carrier Tips</a> <br>
-                    <a href="job-details.html">FAQ</a>
-                </div>
-
+            <div class="social-media-logos mt-4">
+              <i class="google-logo fa-brands fa-facebook-f"></i>
+              <i class="google-logo fa-brands fa-google-plus-g"></i>
+              <i class="google-logo fa-brands fa-twitter"></i>
+              <i class="google-logo fa-brands fa-instagram"></i>
             </div>
-            <div class="col-lg-2">
-                <p class="font10">Category</p>
-                <div class="company-div">
-                    <a href="job-details.html">Design</a> <br>
-                    <a href="job-details.html">Engineering</a> <br>
-                    <a href="job-details.html">Sales & Marketing</a> <br>
-                    <a href="job-details.html">Finance</a>
-                </div>
-
+    
+          </div>
+          <div class="col-lg-2">
+            <p class="font10">Company</p>
+            <div class="company-div">
+              <a href="job-details.html">About</a> <br>
+              <a href="job-details.html">Pricing</a> <br>
+              <a href="job-details.html">Carrier Tips</a> <br>
+              <a href="job-details.html">FAQ</a>
             </div>
-            <div class="col-lg-5">
-                <p class="font10-subs">Subscribe</p>
-                <div class="input-group mb-3">
-                    <div class="btn-input">
-                        <input class="form-div" type="email" class="form-control" placeholder="Enter your mail">
-                        <button class="btn-subscribe btn btn-outline-secondary" type="button"
-                            id="button-addon2">Subscribe</button>
-                    </div>
-
-
-                    <p class="footer-text mt-3">Subscribe and get our latest news from our website!
-                    </p>
-                </div>
+    
+          </div>
+          <div class="col-lg-2">
+            <p class="font10">Category</p>
+            <div class="company-div">
+              <a href="job-details.html">Design</a> <br>
+              <a href="job-details.html">Engineering</a> <br>
+              <a href="job-details.html">Sales & Marketing</a> <br>
+              <a href="job-details.html">Finance</a>
             </div>
+    
+          </div>
+          <div class="col-lg-5">
+            <p class="font10-subs">Subscribe</p>
+            <div class="input-group mb-3">
+              <div class="btn-input">
+                <input class="form-div" type="email" class="form-control" placeholder="Enter your mail">
+                <button class="btn-subscribe btn btn-outline-secondary" type="button" id="button-addon2">Subscribe</button>
+              </div>
+    
+    
+              <p class="footer-text mt-3">Subscribe and get our latest news from our website!
+              </p>
+            </div>
+          </div>
         </div>
         <center>
-            <p class="copyright-text">Copyright ©2023 All rights reserved</p>
+          <p class="copyright-text">Copyright ©2023 All rights reserved</p>
         </center>
-    </footer>
+      </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

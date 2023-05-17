@@ -1,7 +1,8 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
-    
+    background-color: #E5E5E5;
+
 }
 
 
@@ -130,9 +131,15 @@ body {
     right: 4px;
     height: 80%;
     top: 10%;
+    background-color: #FCA311;
+
 }
 
 .footer-image {
     margin-bottom: 12%;
     width: inherit;
+    border-radius: 36%;
 }
+
+
+

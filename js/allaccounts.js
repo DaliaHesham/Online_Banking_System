@@ -1,7 +1,7 @@
-var clicked = document.querySelector('#fixed-box');
+var fixedBox = document.querySelector('#fixed-box');
 const elementToAppear = document.getElementsByClassName('list-box');
 
-clicked.addEventListener('click', function() {
+fixedBox.addEventListener('click', function() {
   if(elementToAppear[1].style.display == "none"){
     for(var i=0 ; i<elementToAppear.length ;i++){
       elementToAppear[i].style.display = 'flex';
@@ -14,10 +14,10 @@ clicked.addEventListener('click', function() {
   }
 });
                       // balance0      min1        curr2  lim3        penalty4         open5            clos6    rate7
-var currentAccount = ["10000 EUR","5000 EUR","EUR","980 EUR","860 EUR","10/December/2001","None","0.9"];
-var creditAccount = ["12000 USD","620 USD","USD","1230 USD","220 USD","12/October/2008","20/August/2022","1.3"];
-var debitAccount = ["1830 GBP","360 GBP","GBP","200 GBP","650 GBP","30/Febraury/2005","None","0.8"];
-var savingstAccount = ["5000 L.E","1000 L.E","EGP","2000 L.E","550 L.E","5/May/2002","None","0.3"];
+var currentAccount = ["10000 EUR","5000 EUR","EUR","980 EUR","860 EUR","10/December/2001","None","0.9","Active","Current Account"];
+var creditAccount = ["12000 USD","620 USD","USD","1230 USD","220 USD","12/October/2008","20/August/2022","1.3","Disabled","Credit Account"];
+var debitAccount = ["1830 GBP","360 GBP","GBP","200 GBP","650 GBP","30/Febraury/2005","None","0.8","Inactive","Debit Account"];
+var savingstAccount = ["5000 L.E","1000 L.E","EGP","2000 L.E","550 L.E","5/May/2023","None","0.3","Pending","Savings Account"];
 
 var current = document.getElementById('current');
 var credit = document.getElementById('credit');
@@ -25,7 +25,7 @@ var debit = document.getElementById('debit');
 var savings = document.getElementById('savings');
 
 current.addEventListener('click', function() {
-  fillAccount(creditAccount);
+  fillAccount(currentAccount);
 });
 credit.addEventListener('click', function() {
   fillAccount(creditAccount);
@@ -46,6 +46,8 @@ function fillAccount(array){
   var opening = document.getElementById('opening');
   var closing = document.getElementById('closing');
   var interest = document.getElementById('interest');
+  var state = document.getElementById('state');
+  var type = document.getElementById('type');
 
   balance.innerText = array[0];
   min.innerText = array[1];
@@ -55,4 +57,6 @@ function fillAccount(array){
   opening.innerText = array[5];
   closing.innerText = array[6];
   interest.innerText = array[7];
+  state.innerText = array[8];
+  type.innerText = array[9];
 }
