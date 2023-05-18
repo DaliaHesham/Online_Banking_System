@@ -1,5 +1,5 @@
 .form-row {
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .form-update {

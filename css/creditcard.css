@@ -3,13 +3,15 @@
 }
 
 .header {
-    margin-left: 6%;
+    /* margin-left: 6%; */
     font-size: 1.3rem;
 }
 
 .mini-header {
-    margin-left: 6%;
+    /* margin-left: 6%; */
     font-size: 1.1rem;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .form-group1 {
@@ -19,4 +21,52 @@
 
 .asterik {
     color: #FCA311;
+}
+
+
+.login-form{
+    width: 50%;
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.form-row{
+    justify-content: flex-start;
+}
+
+
+
+@media (max-width: 992px) {
+    body{
+      font-size: 14px;
+    }
+    
+   .login-form{
+    width: auto;
+   }
+   .application-form{
+    padding: 5% 5%;
+   }
+   
+    
+  }
+  
+  
+  @media (max-width: 786px) {
+  
+    html,
+    body {
+      font-size: 14px;
+    }
+  
+    
+  }
+  
+  
+  @media (max-width: 575px) {
+  
+    body{
+      font-size: 12px;
+    }
+    
 }
