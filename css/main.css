@@ -55,7 +55,9 @@ body {
 .copyright {
     text-align: center;
     margin-top: 5%;
-    font-size: 0.8125rem; /*13px = 0.8125 * 16px*/
+    font-size: 0.8125rem;
+    /*13px = 0.8125 * 16px*/
+    margin-bottom: 5%;
 }
 
 .footer-area {
@@ -145,18 +147,21 @@ body {
 
 
 @media (max-width: 786px) {
-    .body{
+    .body {
         font-size: 12px;
     }
-    .login-form{
+
+    .login-form {
         width: auto;
         padding: 1rem;
     }
-    .footer-area{
+
+    .footer-area {
         margin-left: 6%;
         width: none;
     }
-    .footer-image{
+
+    .footer-image {
         width: 170px;
     }
 
@@ -164,21 +169,22 @@ body {
 
 
 @media (max-width: 992px) {
-    .body{
+    .body {
         font-size: 14px;
     }
-    .login-form{
+
+    .login-form {
         width: auto;
         padding: 1rem;
     }
-    .footer-area{
+
+    .footer-area {
         margin-left: 6%;
         width: none;
     }
-    .footer-image{
+
+    .footer-image {
         width: 170px;
     }
 
 }
-
-

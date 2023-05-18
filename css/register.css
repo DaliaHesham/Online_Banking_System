@@ -148,13 +148,16 @@
 } */
 
 
-.login-form{
+.login-form {
     width: 47%;
 }
-.form-group, .form-row{
+
+.form-group,
+.form-row {
     display: flex;
     justify-content: center;
 }
+
 .form-check-input {
     position: inherit;
     margin: 3%;
@@ -162,6 +165,4 @@
 
 .form-check-label {
     margin-top: 1.5%;
-} 
-
-
+}
