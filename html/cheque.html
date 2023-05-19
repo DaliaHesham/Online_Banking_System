@@ -1,12 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Credit Card Application</title>
-
+    <title>Cheque Requisition</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css" />
@@ -14,16 +14,16 @@
     <link rel="stylesheet" href="../css/all.min.css" />
     <link rel="stylesheet" href="../css/register.css">
     <link rel="stylesheet" href="../css/creditcard.css" />
-
-
-
+    <link rel="stylesheet" href="../css/loan.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+
     <div class="introo container-fluid">
         <nav id="mainNavbar" class="navbar navbar-expand-lg">
             <a href="" class="navbar-brand justify-content-lg-start"><img class="footer-image"
@@ -115,54 +115,19 @@
             </li>
         </nav>
     </div>
+
     <div class="application-form">
         <div class="login-form">
             <h3 class="heading">
                 <center>
-                    Credit Card Application
+                    Cheque Requisition Form
                 </center>
             </h3>
             <form>
                 <div class="personal information">
                     <p class="header">Personal Information</p>
                     <hr>
-                    <p class="mini-header">Title <container class="asterik">*</container>
-                    </p>
-                    <div class="ml-5">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                            <label class="form-check-label" for="inlineRadio1">Mr.</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                            <label class="form-check-label" for="inlineRadio1">Mrs.</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                            <label class="form-check-label" for="inlineRadio2">Miss</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                            <label class="form-check-label" for="inlineRadio2">Dr.</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                            <label class="form-check-label" for="inlineRadio1">
-                                <div class="form-group1 col-md-10">
-                                    <input type="text" class="form-control" id="inputPassword4" placeholder="Other">
-                                </div>
-                            </label>
-                        </div>
-
-                    </div>
-
-                    <hr>
-                    <p class="mini-header">Full Name<container class="asterik">*</container>
+                    <p class="mini-header">Payer Name<container class="asterik">*</container>
                     </p>
                     <div class="form-row">
                         <div class="form-group col-md-5">
@@ -170,96 +135,6 @@
                         </div>
                         <div class="form-group col-md-5">
                             <input type="password" class="form-control" id="inputPassword4" placeholder="Last Name">
-                        </div>
-                    </div>
-                    <hr>
-                    <p class="mini-header">Gender<container class="asterik">*</container>
-                    </p>
-                    <div class="ml-5">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                            <label class="form-check-label" for="inlineRadio1">Female</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                            <label class="form-check-label" for="inlineRadio1">Male</label>
-                        </div>
-                    </div>
-                    <hr>
-                    <p class="mini-header">Date of Birth<container class="asterik">*</container>
-                    </p>
-                    <div class="form-row">
-                        <div class="form-group col-md-7">
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="MM-DD-YYYY">
-                        </div>
-                    </div>
-                    <hr>
-                    <p class="mini-header">Highest Education<container class="asterik">*</container>
-                    </p>
-                    <div class="form-row mt-3">
-                        <div class="form-group col-md-7">
-                            <select id="inputState" class="form-control">
-                                <option selected>Select</option>
-                                <option>Primary</option>
-                                <option>Secondary</option>
-                                <option>College</option>
-                                <option>University</option>
-                            </select>
-                        </div>
-                    </div>
-                    <hr>
-                    <p class="mini-header">Telephone Number<container class="asterik">*</container>
-                    </p>
-                    <div class="form-row">
-                        <div class="form-group col-md-5">
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="Mobile">
-                        </div>
-                        <div class="form-group col-md-5">
-                            <input type="password" class="form-control" id="inputPassword4" placeholder="Home">
-                        </div>
-                    </div>
-                    <hr>
-                    <p class="mini-header">Email<container class="asterik">*</container>
-                    </p>
-                    <div class="form-row">
-                        <div class="form-group col-md-7">
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                        </div>
-                    </div>
-                    <hr>
-                    <p class="mini-header">Marital Status<container class="asterik">*</container>
-                    </p>
-                    <div class="ml-5">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                            <label class="form-check-label" for="inlineRadio1">Single</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                            <label class="form-check-label" for="inlineRadio1">Divorced</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                            <label class="form-check-label" for="inlineRadio1">Married</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                            <label class="form-check-label" for="inlineRadio1">Widow(er)</label>
-                        </div>
-                    </div>
-
-                    <hr>
-                    <p class="mini-header">Passport/National ID<container class="asterik">*</container>
-                    </p>
-                    <div class="form-row">
-                        <div class="form-group col-md-7">
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="">
                         </div>
                     </div>
                     <hr>
@@ -281,52 +156,19 @@
                         </div>
                     </div>
                     <hr>
-                    <p class="header">Financial Information</p>
-                    <hr>
                     <div class="finantial-form">
-                        <p class="mini-header">Are you a<container class="asterik">*</container>
+                        <p class="mini-header">Purpose of Payment<container class="asterik">*</container>
                         </p>
-                        <div class="ml-5">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                    value="option1">
-                                <label class="form-check-label" for="inlineRadio1">Homeowner</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                    value="option1">
-                                <label class="form-check-label" for="inlineRadio1">Renter</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                    value="option1">
-                                <label class="form-check-label" for="inlineRadio1">
-                                    <div class="form-group1 col-md-10">
-                                        <input type="text" class="form-control" id="inputPassword4" placeholder="Other">
-                                    </div>
-                                </label>
-                            </div>
-                        </div>
-                        <hr>
-                        <p class="mini-header">Monthly Income<container class="asterik">*</container>
-                        </p>
-                        <div class="form-row">
-                            <div class="form-group col-md-7">
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="$">
-                            </div>
-                        </div>
-                        <hr>
-                        <p class="mini-header">
-                            Authorization Signature<container class="asterik">*</container>
-                        </p>
-                        <div class="mb-3 ml-5 mb-5">
-                            <!-- <label for="formFile" class="form-label">Default file input example</label> -->
-                            <input class="form-control" type="file" id="formFile">
+                        <div class="form-group mr-5 ml-5">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Type here..."></textarea>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <div class="col-lg-10">
-                            <button type="button" class="btn btn-sign-in btn-block">Submit</button>
+                        <div class="col-md-10 mt-4">
+                            <button type="button" class="btn btn-sign-in btn-block">
+                                <a href="../html/cheque2.html" target="_self" class="nav-link font100">Next</a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -339,6 +181,7 @@
             Copyright @Software Engineering 2023 | Privacy Policy
         </div>
     </div>
+
 
     <footer class="sec5">
         <div class="row footer-area">
@@ -390,8 +233,4 @@
     </footer>
 
 
-
-
 </body>
-
-</html>
