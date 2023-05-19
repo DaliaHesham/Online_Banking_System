@@ -4,13 +4,16 @@
   background-color: #F5F5F5;
   border-radius: 4px;
   padding: 2rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: flex-start; 
   width: fit-content;
   gap: 4rem; 
   line-height: 0.6rem;
   transition: all ease 1s;
+
+  -webkit-box-shadow: -5px 10px 10px 2px rgba(20,33,61,0.72);
+  -moz-box-shadow: -5px 10px 10px 2px rgba(20,33,61,0.72);
+  box-shadow: -5px 10px 10px 2px rgba(20,33,61,0.72);
 
 }
 
