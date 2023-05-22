@@ -232,6 +232,7 @@ a {
     width: 200px;
     background-color: white;
     margin: 0% -5%;
+    border-radius: 15px;
 }
 .candidate-img {
     margin: 6% 0%;
@@ -269,6 +270,32 @@ img {
 .carousel-control-prev {
     right: -64px;
     margin-top: 0%;
+}
+
+.actions-container{
+    margin-bottom: 6rem;
+}
+
+.action-box{
+    height: 400px;
+    background-color: white;
+    -webkit-box-shadow: -5px 10px 10px 2px rgba(20,33,61,0.72);
+    -moz-box-shadow: -5px 10px 10px 2px rgba(20,33,61,0.72);
+    box-shadow: -5px 10px 10px 2px rgba(20,33,61,0.72);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.action-row{
+    justify-content: center;
+}
+
+.action-img{
+    width: 95%;
+    height: 200px;
 }
 
 .sec4 {
@@ -396,13 +423,10 @@ img {
 }
 
 
+
+
+
 @media (max-width: 992px) {
-   
-}
-
-
-
-@media (max-width: 786px) {
 
     html,
     body {
@@ -432,10 +456,16 @@ img {
         width: fit-content;
     }
 
-    
+    .action-row{
+        margin: 0.5rem;
+    }
 
 }
 
+
+@media (max-width: 786px) {
+   
+}
 
 @media (max-width: 575px) {
 
