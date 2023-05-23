@@ -75,7 +75,7 @@ body {
   height: auto;
   border-radius: 5%;
   overflow: hidden;
-  background-color: #FCA311;
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -90,17 +90,16 @@ body {
 
 
 .property {
-  border: 1px solid black;
   padding: 0.8rem;
   margin-bottom: 0.3rem;
   text-align: center;
-  background-color: #14213D;
-  color: #E5E5E5;
+  background-color: #FCA311;
+  color: #14213D;
   transition: all ease 1s;
 }
 
 .property:hover {
-  transform: scale(1.8);
+  transform: scale(1.4);
   cursor: pointer;
 }
 
