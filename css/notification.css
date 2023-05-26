@@ -1,0 +1,14 @@
+p{
+  color: #14213D;
+}
+
+.message{
+  padding:15px 10px;
+  line-height: 1.5rem;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.btn{
+  width: fit-content;
+}
