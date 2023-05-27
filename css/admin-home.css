@@ -1,0 +1,62 @@
+.admin-sec {
+    width: 280px;
+    height: fit-content;
+    background-color: #14213D;
+    margin-top: -6%;
+    padding-bottom: 5%;
+}
+
+.admin-logo {
+    width: 90px;
+    border-radius: 53%;
+    margin-top: 27%;
+}
+
+.admin-username {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 100;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+.btn-admin {
+    background-color: #FCA311;
+}
+
+.btn-admin:hover {
+    background-color: white;
+    color: #FCA311;
+}
+
+.navbar-admin {
+    width: 2000px;
+    height: 70px;
+    background-color: #FCA311;
+}
+
+.form-control {
+    width: 35%;
+    border-color: white;
+    border-width: 2px;
+    background-color: #FCA311;
+    margin-left: 26%;
+    margin-top: 1%;
+}
+
+.admin-logout {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 100;
+    margin-top: 30%;
+    margin-bottom: 10%;
+}
+
+.actions-container {
+    margin-top: -38%;
+    margin-left: 16%;
+}
+
+a {
+    color: white;
+}
