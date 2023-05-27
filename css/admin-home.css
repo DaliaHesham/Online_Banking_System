@@ -4,6 +4,7 @@
     background-color: #14213D;
     margin-top: -6%;
     padding-bottom: 5%;
+    padding: 0.9rem;
 }
 
 .admin-logo {
@@ -30,7 +31,7 @@
 }
 
 .navbar-admin {
-    width: 2000px;
+    /* width: 2000px; */
     height: 70px;
     background-color: #FCA311;
 }
@@ -39,8 +40,8 @@
     width: 35%;
     border-color: white;
     border-width: 2px;
-    background-color: #FCA311;
-    margin-left: 26%;
+    background-color: white;
+    margin-left: 35%;
     margin-top: 1%;
 }
 
@@ -59,4 +60,35 @@
 
 a {
     color: white;
+}
+
+.action-row{
+    margin-top: 6rem;
+}
+
+@media (max-width: 992px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-admin{
+        width: auto;
+    }
+    .admin-sec{
+        width: -webkit-fill-available;
+    }
+    .actions-container{
+        width: -webkit-fill-available;
+        margin: 0 0 5rem 0;
+    }
+    .form-control{
+        width: -webkit-fill-available;
+        margin: 0.2rem 1rem;
+    }
+    .action-row{
+        gap: 3rem;
+    }
+    .admin-logout{
+        display: none;
+    }
 }
