@@ -458,6 +458,9 @@ a {
   .introo {
     display: none;
   }
+  .action{
+    width: -webkit-fill-available;
+  }
 
 }
 
