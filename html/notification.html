@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../css/all.min.css" />
     <link rel="stylesheet" href="../css/allCreditCards.css" />
     <link rel="stylesheet" href="../css/notification.css" />
+    <link rel="stylesheet" href="../css/allaccounts.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,7 +29,25 @@
 
   <body>
     <div class="box">Bonus</div>
-
+    <div class="are-you-sure" id="sure">
+      <button type="button" class="close close-icon" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <p>Are you sure ?</p>
+      <div class="button-container">
+        <button id="yes-button">Yes</button>
+        <button id="no-button">No</button>
+      </div>
+    </div>
+    <div class="are-you-sure" id="confirm">
+      <button type="button" class="close close-icon" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <p>Your request has been sent<br>you will receive a confirmation message</p>
+      <div class="button-container">
+        <button style="background-color:#5cb85c ;" id="ok-button">OK</button>
+      </div>
+    </div>
     <div class="introo container-fluid">
       <nav id="mainNavbar" class="navbar navbar-expand-lg">
         <a href="" class="navbar-brand justify-content-lg-start"
@@ -213,7 +232,7 @@
         <!-- <textarea class="message" readonly >note that the deadline for paying your gas bill</br> is due to 3/6/2023 at 11:59:00 PM </p></textarea> -->
         <div class="message">Kindly note that the deadline for paying your gas bill</br> is due to 3/6/2023 at 11:59:00 PM </div>
         <br>
-        <button class="btn btn-danger">Delete</button>
+        <button class="btn btn-danger action">Delete</button>
       </div>
     </div>
     <div class="transaction-row">
@@ -225,7 +244,7 @@
         <!-- <textarea class="message" readonly >note that the deadline for paying your gas bill</br> is due to 3/6/2023 at 11:59:00 PM </p></textarea> -->
         <div class="message">This is to inform you that your loan request 23165 was accepted</br>and you can now get your money</div>
         <br>
-        <button class="btn btn-danger">Delete</button>
+        <button class="btn btn-danger action">Delete</button>
       </div>
     </div>
     <div class="transaction-row">
@@ -237,7 +256,7 @@
         <!-- <textarea class="message" readonly >note that the deadline for paying your gas bill</br> is due to 3/6/2023 at 11:59:00 PM </p></textarea> -->
         <div class="message">Kindly note that your stolen credit card was stopped successfully</br>and we are now working on creating a new one instead</div>
         <br>
-        <button class="btn btn-danger">Delete</button>
+        <button class="btn btn-danger action">Delete</button>
       </div>
     </div>
     <div class="transaction-row">
@@ -249,7 +268,7 @@
         <!-- <textarea class="message" readonly >note that the deadline for paying your gas bill</br> is due to 3/6/2023 at 11:59:00 PM </p></textarea> -->
         <div class="message">Our bank is offering various insurance products, such as life insurance, health insurance, and property insurance<br> to help you protect your assets and mitigate risks<br> Fill in the following form if you are interested<br><a href="">I am interested</a></div>
         <br>
-        <button class="btn btn-danger">Delete</button>
+        <button class="btn btn-danger action">Delete</button>
       </div>
     </div>
     <div class="transaction-row">
@@ -261,7 +280,7 @@
         <!-- <textarea class="message" readonly >note that the deadline for paying your gas bill</br> is due to 3/6/2023 at 11:59:00 PM </p></textarea> -->
         <div class="message">Kindly note that the issue was resolved and <br> your account is now restored and active<br>we appologize for the error that occured<br>Thank you!</div>
         <br>
-        <button class="btn btn-danger">Delete</button>
+        <button class="btn btn-danger action">Delete</button>
       </div>
     </div>
     <footer class="sec5">

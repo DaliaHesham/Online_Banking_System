@@ -484,6 +484,18 @@ img {
 
     .action-row {
         margin: 0.5rem;
+        gap : 2rem
+    }
+    .action-box{
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .box{
+        display: none;
+    }
+    .actions-container{
+        margin-bottom: 2rem;
     }
 
 }
