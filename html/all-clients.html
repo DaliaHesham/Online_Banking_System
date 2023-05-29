@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All clients</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/transaction.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/allaccounts.css" />
+    <link rel="stylesheet" href="../css/allCreditCards.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    
+    <div class="are-you-sure" id="sure">
+      <button type="button" class="close close-icon" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <p>Are you sure ?</p>
+      <div class="button-container">
+        <button id="yes-button">Yes</button>
+        <button id="no-button">No</button>
+      </div>
+    </div>
+    <div class="are-you-sure" id="confirm">
+      <button type="button" class="close close-icon" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <p>Your request has been sent<br>you will receive a confirmation message</p>
+      <div class="button-container">
+        <button style="background-color:#5cb85c ;" id="ok-button">OK</button>
+      </div>
+    </div>
+    <div class="introo2">
+      <div class=" buttonNavbar ml-auto">
+          <nav class="navbar navbar-dark navbar-expand-lg buttonNavbar">
+              <button class="navbar-btn navbar-toggler buttonDesign collapsed" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation" aria-expanded="false">
+                  <span class="font1">MENU&nbsp;</span><span class="navbar-toggler-icon navbarIcon"></span>
+              </button>
+              <div class="firstNavbar navbar-collapse justify-content-center collapse" id="navLinks" style="">
+  
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a href="../html/home.html" target="_self" class="nav-link font1 text-white">Home</a>
+                      </li>
+                      
+                      <li class="nav-item">
+                          <a href="#" id="navbardrop" data-toggle="dropdown" class="dropdown-toggle nav-link font1 text-white" aria-expanded="false">Applications</a>
+                          <div class="dropdown-menu">
+                              <a class="dropdown-item" href="../html/loan.html">Loan</a>
+                              <a class="dropdown-item" href="../html/creditcard.html">New credit card</a>
+                              <a class="dropdown-item" href="../html/bankAccount.html">New bank account</a>
+                          </div>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#" id="navbardrop" data-toggle="dropdown" class="dropdown-toggle nav-link font1 text-white" aria-expanded="false">Explore</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="../html/allaccounts.html">My accounts</a>
+                            <a class="dropdown-item" href="../html/allCreditCards.html">My credit cards</a>
+                            <a class="dropdown-item" href="../html/notification.html">Notifications</a>
+                        </div>
+                    </li>
+                      <li class="nav-item">
+                          <a href="#" id="navbardrop" data-toggle="dropdown" class="dropdown-toggle nav-link font1 text-white">Help</a>
+                          <div class="dropdown-menu">
+                              <a class="dropdown-item" href="../html/cheque.html">Request a cheque</a>
+                              <a class="dropdown-item" href="../html/report.html">Report a problem</a>
+                          </div>
+                      </li>
+                      <li class="nav-item">
+                        <a href="../html/profile.html" target="_self" class="nav-link font1 text-white">Profile</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="../index.html" target="_self" class="nav-link font1 text-white">Sign out</a>
+                      </li>
+                  </ul>
+  
+              </div>
+          </nav>
+  
+      </div>
+  
+  
+    </div>
+    <div class="introo container-fluid">
+      <nav id="mainNavbar" class="navbar navbar-expand-lg">
+        <a href="" class="navbar-brand justify-content-lg-start"
+          ><img
+            class="footer-image"
+            src="../resources/logo.png"
+            alt="searchIcon"
+        /></a>
+        <div class="collapse navbar-collapse justify-content-center">
+          <div class="navLinkGroup navbar-nav">
+            <li class="nav-item">
+              <a href="home.html" target="_self" class="nav-link font1">Home</a>
+            </li>
+            <li class="nav-item droplist-nav">
+              <div class="drop-link-arrow">
+                <a href="" class="nav-link font1">Applications</a>
+                <svg
+                  style="color: white"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-caret-down-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                  />
+                </svg>
+              </div>
+              <div class="drop-list">
+                
+                <div class="components">
+                  <a
+                    href="../html/loan.html"
+                    target="_self"
+                    style="color: black"
+                    >Loan</a
+                  >
+                  <br />
+                </div>
+                <div class="components">
+                  <a
+                    href="../html/creditcard.html"
+                    target="_self"
+                    style="color: black"
+                    >New Credit Card</a
+                  >
+                  <br />
+                </div>
+                <div class="components">
+                  <a
+                    href="../html/bankAccount.html"
+                    target="_self"
+                    style="color: black"
+                    >New Bank Account</a
+                  >
+                  <br />
+                </div>
+              </div>
+            </li>
+            <li class="nav-item droplist-nav">
+              <div class="drop-link-arrow">
+                <a href="" class="nav-link font1">Explore</a>
+                <svg
+                  style="color: white"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-caret-down-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                  />
+                </svg>
+              </div>
+              <div class="drop-list">
+                <div class="components">
+                  <a
+                    href="../html/allaccounts.html"
+                    target="_self"
+                    style="color: black"
+                    >My accounts</a
+                  >
+                  <br />
+                </div>
+                <div class="components"><a href="../html/allCreditCards.html" target="_self" style="color:black">My
+                  credit cards</a><br></div> 
+                  <div class="components"><a href="../html/notification.html" target="_self" style="color:black">Notifications</a><br></div>
+
+              </div>
+            </li>
+
+           
+            <li class="nav-item droplist-nav">
+              <div class="drop-link-arrow">
+                <a href="" class="nav-link font1">Help</a>
+                <svg
+                  style="color: white"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-caret-down-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                  />
+                </svg>
+              </div>
+              <div class="drop-list">
+                <div class="components">
+                  <a
+                    href="../html/cheque.html"
+                    target="_self"
+                    style="color: black"
+                    >Request a Cheque</a
+                  >
+                  <br />
+                </div>
+                <div class="components">
+                  <a
+                    href="../html/report.html"
+                    target="_self"
+                    style="color: black"
+                    >Report a Problem</a
+                  >
+                  <br />
+                </div>
+              </div>
+            </li>
+          </div>
+        </div>
+        <li class="nav-item droplist-nav">
+          <div class="drop-link-arrow">
+            <a href="" class="nav-link font1">Arwa Gad</a>
+            <svg
+              style="color: white; height: 15px"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-person-circle"
+              viewBox="0 0 16 16"
+            >
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+              <path
+                fill-rule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+              />
+            </svg>
+          </div>
+          <div class="drop-list">
+            <div class="components">
+              <a href="../html/profile.html" target="_self" style="color: black"
+                >Profile
+              </a>
+              <br />
+            </div>
+            
+            <div class="components">
+              <a href="../index.html" target="_self" style="color: black"
+                >Sign out</a
+              >
+              <br />
+            </div>
+          </div>
+        </li>
+      </nav>
+    </div>
+
+    <div class="transaction-row">
+      <div class="transaction-container t1" id="t1">
+        <div class="details-half">
+          
+          <div class="property">
+            <span class="property-label">Client name</span>
+            <div class="property-value">Arwa Wail</div>
+          </div>
+          <div class="property">
+            <span class="property-label">Client ID</span>
+            <div class="property-value">6436</div>
+          </div>
+          <div class="property">
+            <span class="property-label" style="text-align: left;">e-mail</span>
+            <div class="property-value">arwa_wail@hotmail.com</div>
+          </div>
+          
+        </div>
+        
+        <div class="details-half buttons-half">
+          <a href="../html/client-details.html"><button type="button" class="btn btn-warning mb-2">view details</button></a>
+          <a href="../html/banker-client-credit.html"><button type="button" class="btn btn-warning">View credit cards</button></a>
+          <a href="../html/client-loans.html"><button type="button" class="btn btn-warning">View loans</button></a>
+        </div>
+        </div> 
+      </div>
+    </div>
+    <div class="transaction-row">
+      <div class="transaction-container" id="t1">
+        <div class="details-half">
+          
+          <div class="property">
+            <span class="property-label">Client name</span>
+            <div class="property-value">Arwa Wail</div>
+          </div>
+          <div class="property">
+            <span class="property-label">Client ID</span>
+            <div class="property-value">6436</div>
+          </div>
+          <div class="property">
+            <span class="property-label" style="text-align: left;">e-mail</span>
+            <div class="property-value">arwa_wail@hotmail.com</div>
+          </div>
+          
+        </div>
+        
+        <div class="details-half buttons-half">
+          <a href="../html/client-details.html"><button type="button" class="btn btn-warning mb-2">View details</button></a>
+          <a href="../html/banker-client-credit.html"><button type="button" class="btn btn-warning">View credit cards</button></a>
+          <a href="../html/client-loans.html"><button type="button" class="btn btn-warning">View loans</button></a>
+        </div>
+
+        </div> 
+        
+      </div>
+    </div>
+    <div class="transaction-row">
+      <div class="transaction-container" id="t1">
+        <div class="details-half">
+          
+          <div class="property">
+            <span class="property-label">Client name</span>
+            <div class="property-value">Arwa Wail</div>
+          </div>
+          <div class="property">
+            <span class="property-label">Client ID</span>
+            <div class="property-value">6436</div>
+          </div>
+          <div class="property">
+            <span class="property-label" style="text-align: left;">e-mail</span>
+            <div class="property-value">arwa_wail@hotmail.com</div>
+          </div>
+          
+        </div>
+        
+        <div class="details-half buttons-half">
+          <a href="../html/client-details.html"><button type="button" class="btn btn-warning mb-2">view details</button></a>
+          <a href="../html/banker-client-credit.html"><button type="button" class="btn btn-warning">View credit cards</button></a>
+          <a href="../html/client-loans.html"><button type="button" class="btn btn-warning">View loans</button></a>
+        </div>
+        
+        </div> 
+        
+      </div>
+    </div>
+    </div>
+    <footer class="sec5">
+      <div class="row footer-area">
+        <div class="col-lg-3">
+          <img
+            class="footer-image"
+            src="../resources/logo.png"
+            alt="Picture not found."
+          />
+
+          <div class="footer-text">
+            BDP@support.com <br />
+            +33 12-345-6789 <br />
+            Rue de Rivoli, Paris, France
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <p class="font10">Company</p>
+          <div class="company-div">
+            <a href="job-details.html">About</a> <br />
+            <a href="job-details.html">Pricing</a> <br />
+            <a href="job-details.html">Carrier Tips</a> <br />
+            <a href="job-details.html">FAQ</a>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <p class="font10">Category</p>
+          <div class="company-div">
+            <a href="job-details.html">Design</a> <br />
+            <a href="job-details.html">Engineering</a> <br />
+            <a href="job-details.html">Sales & Marketing</a> <br />
+            <a href="job-details.html">Finance</a>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <p class="font10-subs">Subscribe</p>
+          <div class="input-group mb-3">
+            <div class="btn-input">
+              <input
+                class="form-div"
+                type="email"
+                class="form-control"
+                placeholder="Enter your mail"
+              />
+              <button
+                class="btn-subscribe btn btn-outline-secondary"
+                type="button"
+                id="button-addon2"
+              >
+                Subscribe
+              </button>
+            </div>
+
+            <p class="footer-text mt-3">
+              Subscribe and get our latest news from our website!
+            </p>
+          </div>
+        </div>
+      </div>
+      <center>
+        <p class="copyright-text">Copyright ©2023 All rights reserved</p>
+      </center>
+    </footer>
+
+    <script src="../js/allCreditCards.js"></script>
+    <script src="../js/screen-reader.js"></script>
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function debounce(method, delay) {
+        clearTimeout(method._tId);
+        method._tId = setTimeout(function () {
+          method();
+        }, delay);
+      }
+
+      var nav = document.getElementById("mainNavbar");
+      function func() {
+        nav.style.backgroundColor = "rgba(0,29,56,.8)";
+      }
+
+      $(window).scroll(function () {
+        debounce(func, 100);
+      });
+    </script>
+  </body>
+</html>
