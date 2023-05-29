@@ -462,6 +462,10 @@ a {
     width: -webkit-fill-available;
   }
 
+  .are-you-sure{
+    width: 300px;
+    top: 28%;
+  }
 }
 
 
